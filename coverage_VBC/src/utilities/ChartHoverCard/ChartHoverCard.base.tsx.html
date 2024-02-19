@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">42.85% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>9/21</span>
-            </div>
-        
-            
-            <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
-                <span class="quiet">Branches</span>
-                <span class='fraction'>0/4</span>
+                <span class='fraction'>21/21</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">50% </span>
-                <span class="quiet">Functions</span>
-                <span class='fraction'>1/2</span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>2/4</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">70% </span>
+                <span class="strong">100% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>2/2</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>7/10</span>
+                <span class='fraction'>10/10</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line low'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -114,14 +114,14 @@
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -155,15 +155,15 @@ import { convertToLocaleString } from '../index';
 const getClassNames = classNamesFunction&lt;IChartHoverCardStyleProps, IChartHoverCardStyles&gt;();
 export class ChartHoverCardBase extends React.Component&lt;IChartHoverCardProps, {}&gt; {
   private _classNames: IProcessedStyleSet&lt;IChartHoverCardStyles&gt;;
-<span class="fstat-no" title="function not covered" >  public r</span>ender(): React.ReactNode {
-    const { color<span class="cstat-no" title="statement not covered" >, L</span>egend<span class="cstat-no" title="statement not covered" >, X</span>Value<span class="cstat-no" title="statement not covered" >, Y</span>Value<span class="cstat-no" title="statement not covered" >, s</span>tyles<span class="cstat-no" title="statement not covered" >, t</span>heme<span class="cstat-no" title="statement not covered" >, r</span>atio<span class="cstat-no" title="statement not covered" >, d</span>escriptionMessage<span class="cstat-no" title="statement not covered" >, c</span>ulture<span class="cstat-no" title="statement not covered" > } = <span class="cstat-no" title="statement not covered" >t</span>his.props;</span>
-<span class="cstat-no" title="statement not covered" >    this._classNames = getClassNames(styles!, {</span>
+  public render(): React.ReactNode {
+    const { color, Legend, XValue, YValue, styles, theme, ratio, descriptionMessage, culture } = this.props;
+    this._classNames = getClassNames(styles!, {
       theme: theme!,
       color: color,
       XValue: XValue,
       isRatioPresent: !!ratio,
     });
-<span class="cstat-no" title="statement not covered" >    return (</span>
+    return (
       &lt;div className={this._classNames.calloutContentRoot}&gt;
         &lt;div className={this._classNames.calloutDateTimeContainer}&gt;
           &lt;div className={this._classNames.calloutContentX}&gt;{XValue} &lt;/div&gt;
@@ -176,7 +176,7 @@ export class ChartHoverCardBase extends React.Component&lt;IChartHoverCardProps,
             &lt;div className={this._classNames.calloutContentY}&gt;{convertToLocaleString(YValue, culture)}&lt;/div&gt;
           &lt;/div&gt;
           {!!ratio &amp;&amp; (
-            &lt;div className={this._classNames.ratio}&gt;
+<span class="branch-1 cbranch-no" title="branch not covered" >            &lt;div className={this._classNames.ratio}&gt;</span>
               &lt;&gt;
                 &lt;span className={this._classNames.numerator}&gt;{convertToLocaleString(ratio[0], culture)}&lt;/span&gt;/
                 &lt;span className={this._classNames.denominator}&gt;{convertToLocaleString(ratio[1], culture)}&lt;/span&gt;
@@ -184,7 +184,7 @@ export class ChartHoverCardBase extends React.Component&lt;IChartHoverCardProps,
             &lt;/div&gt;
           )}
         &lt;/div&gt;
-        {!!descriptionMessage &amp;&amp; &lt;div className={this._classNames.descriptionMessage}&gt;{descriptionMessage}&lt;/div&gt;}
+        {!!descriptionMessage &amp;&amp; <span class="branch-1 cbranch-no" title="branch not covered" >&lt;div className={this._classNames.descriptionMessage}&gt;{descriptionMessage}&lt;/div&gt;}</span>
       &lt;/div&gt;
     );
   }
@@ -196,7 +196,7 @@ export class ChartHoverCardBase extends React.Component&lt;IChartHoverCardProps,
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2024-02-19T08:33:31.274Z
+                at 2024-02-19T16:30:43.327Z
             </div>
         <script src="../../../prettify.js"></script>
         <script>
