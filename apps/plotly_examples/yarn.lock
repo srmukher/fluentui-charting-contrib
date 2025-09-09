@@ -1248,6 +1248,11 @@
   resolved "https://registry.npmjs.org/@floating-ui/devtools/-/devtools-0.2.1.tgz"
   integrity sha512-8PHJLbD6VhBh+LJ1uty/Bz30qs02NXCE5u8WpOhSewlYXUWl03GNXknr9AS2yaAWJEQaY27x7eByJs44gODBcw==
 
+"@floating-ui/devtools@^0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@floating-ui/devtools/-/devtools-0.2.3.tgz#071f069e5a25e6f2a63ed68584a11ff7c9298947"
+  integrity sha512-ZTcxTvgo9CRlP7vJV62yCxdqmahHTGpSTi5QaTDgGoyQq0OyjaVZhUhXv/qdkQFOI3Sxlfmz0XGG4HaZMsDf8Q==
+
 "@floating-ui/dom@^1.6.12":
   version "1.6.13"
   resolved "https://registry.npmjs.org/@floating-ui/dom/-/dom-1.6.13.tgz"
@@ -1261,18 +1266,18 @@
   resolved "https://registry.npmjs.org/@floating-ui/utils/-/utils-0.2.9.tgz"
   integrity sha512-MDWhGtE+eHw5JW7lq4qhc5yRLS11ERl1c7Z6Xd0a58DozHES6EnNNwUWbMiG4J9Cgj053Bhk8zvlhFYKVhULwg==
 
-"@fluentui/chart-utilities@^1.1.26":
-  version "1.1.26"
-  resolved "https://registry.yarnpkg.com/@fluentui/chart-utilities/-/chart-utilities-1.1.26.tgz#6fcbaf4c088768553710fde86c0ddb0e4f9fd35d"
-  integrity sha512-PME8SZYXp720yd4dAkI31hZo9Kt5YTL41O91yXOmRwsRGZwznJMKvxg5fDjHR8x4Mo0o9iWY/JOfonh+Mg1LNg==
-  dependencies:
-    "@fluentui/set-version" "^8.2.24"
-    tslib "^2.1.0"
-
 "@fluentui/chart-utilities@^1.1.27":
   version "1.1.27"
   resolved "https://registry.yarnpkg.com/@fluentui/chart-utilities/-/chart-utilities-1.1.27.tgz#2fa51ddb136c0ea49e140d55cf66c83d59560855"
   integrity sha512-BCQdTzPuzivBYLFa1MPHd1iYXKzCQjP7sx5Bh99ICgooToXIwnDUoHX6pWU8IqVWWFh8smkUD5fK9o8CCti/YA==
+  dependencies:
+    "@fluentui/set-version" "^8.2.24"
+    tslib "^2.1.0"
+
+"@fluentui/chart-utilities@^1.1.28":
+  version "1.1.28"
+  resolved "https://registry.yarnpkg.com/@fluentui/chart-utilities/-/chart-utilities-1.1.28.tgz#8f67e1561930e7b89400bcbf7948d0d126a8f3a4"
+  integrity sha512-xDpEjBhb/27dHpOyetYV0kDg5p7NmtINJBzP8GFY1EOv4vrt0yhYZmVlqFlro8PcSnq0fa673vhj4cs7z9gDRg==
   dependencies:
     "@fluentui/set-version" "^8.2.24"
     tslib "^2.1.0"
@@ -1321,10 +1326,10 @@
   dependencies:
     tslib "^2.1.0"
 
-"@fluentui/keyboard-keys@0.0.0-nightly-20250804-0407.1":
-  version "0.0.0-nightly-20250804-0407.1"
-  resolved "https://registry.yarnpkg.com/@fluentui/keyboard-keys/-/keyboard-keys-0.0.0-nightly-20250804-0407.1.tgz#b3e40203e478826e9eb6a7098927fc96e125ad99"
-  integrity sha512-ClJUEtid1E3DAdYniVz2gm7BJzahmxQUJlI91y6bspTMt0JYCkiTiZ+wGsGFJioyVlT7J9k6d9kN8k/1Xab8Dg==
+"@fluentui/keyboard-keys@0.0.0-nightly-20250909-0406.1":
+  version "0.0.0-nightly-20250909-0406.1"
+  resolved "https://registry.yarnpkg.com/@fluentui/keyboard-keys/-/keyboard-keys-0.0.0-nightly-20250909-0406.1.tgz#ebb8b3542461abeba3104cb43c519755299754b6"
+  integrity sha512-GQ0xQbPIirHZaQg1Lw4/G5dLR38InCRu7eelP/jp+7ZxIrRM4SFI0m705lMNs01ZAveYdi1W+KYrGHxINlb1sw==
   dependencies:
     "@swc/helpers" "^0.5.1"
 
@@ -1343,10 +1348,10 @@
     "@fluentui/set-version" "^8.2.24"
     tslib "^2.1.0"
 
-"@fluentui/priority-overflow@0.0.0-nightly-20250804-0407.1":
-  version "0.0.0-nightly-20250804-0407.1"
-  resolved "https://registry.yarnpkg.com/@fluentui/priority-overflow/-/priority-overflow-0.0.0-nightly-20250804-0407.1.tgz#53d3173824496ae91532c9a7c1c3437b29858be9"
-  integrity sha512-DLHE5cs1rlm0rDYifJJQDV72xtBZhCqeBXqFfaywNK4oHkE0GPhkBdxN0HqUgH9mnSV4mbFpNZI8KKq5C3Lr0g==
+"@fluentui/priority-overflow@0.0.0-nightly-20250909-0406.1":
+  version "0.0.0-nightly-20250909-0406.1"
+  resolved "https://registry.yarnpkg.com/@fluentui/priority-overflow/-/priority-overflow-0.0.0-nightly-20250909-0406.1.tgz#44b4ae0f20d9fa169f5961eafa6f5276ae803c54"
+  integrity sha512-BPkCCRCUUo3T1yhB4vdRaMqckrf8m3pKjNZQKv3QaW/AJCJDh3ySGH881Ft6ZsJ/olbx5riuCWNc70YxFRrnfg==
   dependencies:
     "@swc/helpers" "^0.5.1"
 
@@ -1390,16 +1395,16 @@
     "@griffel/react" "^1.5.22"
     "@swc/helpers" "^0.5.1"
 
-"@fluentui/react-aria@0.0.0-nightly-20250804-0407.1":
-  version "0.0.0-nightly-20250804-0407.1"
-  resolved "https://registry.yarnpkg.com/@fluentui/react-aria/-/react-aria-0.0.0-nightly-20250804-0407.1.tgz#b61cea9d001dd274f09f8daf4b0ed55f2f06d838"
-  integrity sha512-bOrMpBBJ22zVa0/pufkU+ahCw8gctJsrI6xk8Ch831tdH3+AV6nrBiuLKuiH0p8NjqmVpOkyDdPnGu1dNM0bnA==
+"@fluentui/react-aria@0.0.0-nightly-20250909-0406.1":
+  version "0.0.0-nightly-20250909-0406.1"
+  resolved "https://registry.yarnpkg.com/@fluentui/react-aria/-/react-aria-0.0.0-nightly-20250909-0406.1.tgz#5cf85659cb815bfcd56b6e7418cc2b5804e542c0"
+  integrity sha512-Aanti0oqiuFuq6UCwBy2q93120NbkpLwFTx+lcdJqmAD3ImWuQnGyMCgNoe2Swr5kqC/ODNCf1e/wC5vWPklSQ==
   dependencies:
-    "@fluentui/keyboard-keys" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-jsx-runtime" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-shared-contexts" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-tabster" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-utilities" "0.0.0-nightly-20250804-0407.1"
+    "@fluentui/keyboard-keys" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-jsx-runtime" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-shared-contexts" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-tabster" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-utilities" "0.0.0-nightly-20250909-0406.1"
     "@swc/helpers" "^0.5.1"
 
 "@fluentui/react-aria@^9.13.13":
@@ -1462,19 +1467,19 @@
     "@griffel/react" "^1.5.22"
     "@swc/helpers" "^0.5.1"
 
-"@fluentui/react-button@0.0.0-nightly-20250804-0407.1":
-  version "0.0.0-nightly-20250804-0407.1"
-  resolved "https://registry.yarnpkg.com/@fluentui/react-button/-/react-button-0.0.0-nightly-20250804-0407.1.tgz#215d78df16586896c6643298679e80899056b341"
-  integrity sha512-/B0BYEH9zVpDREC5FcxUuPydCoTlXkZdVTo+y561cN+1TXnwJTEzI6nZbBwJReC8Rxjk6hTuDNi38CApdifobw==
+"@fluentui/react-button@0.0.0-nightly-20250909-0406.1":
+  version "0.0.0-nightly-20250909-0406.1"
+  resolved "https://registry.yarnpkg.com/@fluentui/react-button/-/react-button-0.0.0-nightly-20250909-0406.1.tgz#1dbe5502837d1ef2f47a76a31828912944c6cb18"
+  integrity sha512-TCbuTVit6AM9QfWMelBnCInp7b7XwGJKw2fUGot+BbOsv8OsDCC2jA7HQ+M8rY/UiU1IUF/WpYYvfEMhVOnOgg==
   dependencies:
-    "@fluentui/keyboard-keys" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-aria" "0.0.0-nightly-20250804-0407.1"
+    "@fluentui/keyboard-keys" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-aria" "0.0.0-nightly-20250909-0406.1"
     "@fluentui/react-icons" "^2.0.245"
-    "@fluentui/react-jsx-runtime" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-shared-contexts" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-tabster" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-theme" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-utilities" "0.0.0-nightly-20250804-0407.1"
+    "@fluentui/react-jsx-runtime" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-shared-contexts" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-tabster" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-theme" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-utilities" "0.0.0-nightly-20250909-0406.1"
     "@griffel/react" "^1.5.22"
     "@swc/helpers" "^0.5.1"
 
@@ -1562,21 +1567,21 @@
     d3-time-format "^3.0.0"
     tslib "^2.1.0"
 
-"@fluentui/react-charts@0.0.0-nightly-20250804-0407.1":
-  version "0.0.0-nightly-20250804-0407.1"
-  resolved "https://registry.yarnpkg.com/@fluentui/react-charts/-/react-charts-0.0.0-nightly-20250804-0407.1.tgz#67c66d9633c9a5d473703a2027f4bb5a022383ca"
-  integrity sha512-4U+CS7hiqWbce1gmxvpf8wRG3KnMraVg2+PEEEMwgFRrSZ7CJQnX6OiZqfysCwAc6K2sr0lMVI+19NLqyZ/uZQ==
+"@fluentui/react-charts@0.0.0-nightly-20250909-0406.1":
+  version "0.0.0-nightly-20250909-0406.1"
+  resolved "https://registry.yarnpkg.com/@fluentui/react-charts/-/react-charts-0.0.0-nightly-20250909-0406.1.tgz#40854dff2e3bf49afa9233f798c0ed3556c670ff"
+  integrity sha512-i37Zl/CtXPp2shLsOgAz0MxiJgyYdOhCbcwfYWb036rpviB5kgatldW17nROoXDlSoC70gNAOT+u0D/4aMoUdw==
   dependencies:
-    "@fluentui/chart-utilities" "^1.1.26"
-    "@fluentui/react-button" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-jsx-runtime" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-overflow" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-popover" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-shared-contexts" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-tabster" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-theme" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-tooltip" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-utilities" "0.0.0-nightly-20250804-0407.1"
+    "@fluentui/chart-utilities" "^1.1.28"
+    "@fluentui/react-button" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-jsx-runtime" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-overflow" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-popover" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-shared-contexts" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-tabster" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-theme" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-tooltip" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-utilities" "0.0.0-nightly-20250909-0406.1"
     "@griffel/react" "^1.5.22"
     "@swc/helpers" "^0.5.1"
     "@types/d3-array" "^3.0.0"
@@ -1704,12 +1709,12 @@
     "@griffel/react" "^1.5.22"
     "@swc/helpers" "^0.5.1"
 
-"@fluentui/react-context-selector@0.0.0-nightly-20250804-0407.1":
-  version "0.0.0-nightly-20250804-0407.1"
-  resolved "https://registry.yarnpkg.com/@fluentui/react-context-selector/-/react-context-selector-0.0.0-nightly-20250804-0407.1.tgz#33f4f155f51b7f60f5e6856e7bd5b111565c5189"
-  integrity sha512-9fgriL+B/PMFo8IFTW49p8Venl10P1NlQFgJ6zzoK9Nw7JKqdjdoOvhMUu3h+iJw5tO/ha1sXG55szV//1MWMg==
+"@fluentui/react-context-selector@0.0.0-nightly-20250909-0406.1":
+  version "0.0.0-nightly-20250909-0406.1"
+  resolved "https://registry.yarnpkg.com/@fluentui/react-context-selector/-/react-context-selector-0.0.0-nightly-20250909-0406.1.tgz#69ec58a3ee2e9f94b4cce778164324b578f38d7e"
+  integrity sha512-oK7UqTOWGtMFve8+iKwFKFWpO7tlnMS9ORQKkPaH8l1Z74oX8M0SbWZeflRhojxY3nwQgq//TmKolZLUse4wcA==
   dependencies:
-    "@fluentui/react-utilities" "0.0.0-nightly-20250804-0407.1"
+    "@fluentui/react-utilities" "0.0.0-nightly-20250909-0406.1"
     "@swc/helpers" "^0.5.1"
 
 "@fluentui/react-context-selector@^9.1.71":
@@ -1867,12 +1872,12 @@
     "@griffel/react" "^1.5.22"
     "@swc/helpers" "^0.5.1"
 
-"@fluentui/react-jsx-runtime@0.0.0-nightly-20250804-0407.1":
-  version "0.0.0-nightly-20250804-0407.1"
-  resolved "https://registry.yarnpkg.com/@fluentui/react-jsx-runtime/-/react-jsx-runtime-0.0.0-nightly-20250804-0407.1.tgz#f84c40f367b1b97e71f3a74d596f8d24c107fed2"
-  integrity sha512-kQNI8LpiJgFc3BoJhi74PzDslZ2SAcK2xYWrkZ3u7DkWsH48KZAqnjGt7TGy2bnZVu/S0VC1eLkRVdCYHcfA7A==
+"@fluentui/react-jsx-runtime@0.0.0-nightly-20250909-0406.1":
+  version "0.0.0-nightly-20250909-0406.1"
+  resolved "https://registry.yarnpkg.com/@fluentui/react-jsx-runtime/-/react-jsx-runtime-0.0.0-nightly-20250909-0406.1.tgz#2937f0cbed4f1e8db507cb81733e91cc9255fc1a"
+  integrity sha512-Xw7kCLvV1O6ncJu2PxmByuLHRnNx75Ny2LB1Uof5peEWi5ohz/AUQdfly+QdhmPcUQRw1FIbO9Y7sVtPeuQ2eg==
   dependencies:
-    "@fluentui/react-utilities" "0.0.0-nightly-20250804-0407.1"
+    "@fluentui/react-utilities" "0.0.0-nightly-20250909-0406.1"
     "@swc/helpers" "^0.5.1"
     react-is "^17.0.2"
 
@@ -1981,15 +1986,15 @@
     "@swc/helpers" "^0.5.1"
     react-is "^17.0.2"
 
-"@fluentui/react-overflow@0.0.0-nightly-20250804-0407.1":
-  version "0.0.0-nightly-20250804-0407.1"
-  resolved "https://registry.yarnpkg.com/@fluentui/react-overflow/-/react-overflow-0.0.0-nightly-20250804-0407.1.tgz#b7eb67637317bde4ad323ef54790d9c74a316929"
-  integrity sha512-l1aBdM0IyoB12NYkFNJJ7KeRMOikmI7AhbmFW1HhSf2SYIfT9eYY/6/OvI+/7y1E7ycwa6Pb/faRwak6U/0aLQ==
+"@fluentui/react-overflow@0.0.0-nightly-20250909-0406.1":
+  version "0.0.0-nightly-20250909-0406.1"
+  resolved "https://registry.yarnpkg.com/@fluentui/react-overflow/-/react-overflow-0.0.0-nightly-20250909-0406.1.tgz#57c19ffebd4f74c7572840e331beed59784161c9"
+  integrity sha512-yY5uFTTd9CCmwPMuGHzQmgz0mB5gLQ8xvHSL46vRTORgLS5EOt5GqX3Pk60dMPZQF1SHjs/0JB00rDs0Ri/g8g==
   dependencies:
-    "@fluentui/priority-overflow" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-context-selector" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-theme" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-utilities" "0.0.0-nightly-20250804-0407.1"
+    "@fluentui/priority-overflow" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-context-selector" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-theme" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-utilities" "0.0.0-nightly-20250909-0406.1"
     "@griffel/react" "^1.5.22"
     "@swc/helpers" "^0.5.1"
 
@@ -2019,21 +2024,21 @@
     "@griffel/react" "^1.5.22"
     "@swc/helpers" "^0.5.1"
 
-"@fluentui/react-popover@0.0.0-nightly-20250804-0407.1":
-  version "0.0.0-nightly-20250804-0407.1"
-  resolved "https://registry.yarnpkg.com/@fluentui/react-popover/-/react-popover-0.0.0-nightly-20250804-0407.1.tgz#a56ffb9f838cbb89c4aee82ed5a6d25b6a8018f6"
-  integrity sha512-poGQxYstEIsH9h954IRDfaUOfV12/8vj6envmAh95/OQxOcy0/fgjSvzEpPEPuUP4er3QzbnvoUs20Atwy8aKQ==
+"@fluentui/react-popover@0.0.0-nightly-20250909-0406.1":
+  version "0.0.0-nightly-20250909-0406.1"
+  resolved "https://registry.yarnpkg.com/@fluentui/react-popover/-/react-popover-0.0.0-nightly-20250909-0406.1.tgz#c59152590f4439f74b1e9f3d8701eef71e7843fd"
+  integrity sha512-VGVyDa5Oquyf6B6LOmjNl7VASCGOBifMfXrDppVp1N/0KSgJZzcWSxRKlxPVsBuqDZqsKMnJNEtWsZPZGAFmuQ==
   dependencies:
-    "@fluentui/keyboard-keys" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-aria" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-context-selector" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-jsx-runtime" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-portal" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-positioning" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-shared-contexts" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-tabster" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-theme" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-utilities" "0.0.0-nightly-20250804-0407.1"
+    "@fluentui/keyboard-keys" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-aria" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-context-selector" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-jsx-runtime" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-portal" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-positioning" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-shared-contexts" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-tabster" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-theme" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-utilities" "0.0.0-nightly-20250909-0406.1"
     "@griffel/react" "^1.5.22"
     "@swc/helpers" "^0.5.1"
 
@@ -2071,17 +2076,16 @@
     "@fluentui/react-tabster" "^9.23.2"
     "@swc/helpers" "^0.5.1"
 
-"@fluentui/react-portal@0.0.0-nightly-20250804-0407.1":
-  version "0.0.0-nightly-20250804-0407.1"
-  resolved "https://registry.yarnpkg.com/@fluentui/react-portal/-/react-portal-0.0.0-nightly-20250804-0407.1.tgz#4624c181b0dca3b09ed6ffd7bcb916341c1d9130"
-  integrity sha512-BqNuwe6h2TapRxvhWeUAS7UG+TAFMYxfZZw9ZkYuxeVtVC+BdjLx9JjT1dgP/uueorx/BqBRWRQkhyaA1cloXw==
+"@fluentui/react-portal@0.0.0-nightly-20250909-0406.1":
+  version "0.0.0-nightly-20250909-0406.1"
+  resolved "https://registry.yarnpkg.com/@fluentui/react-portal/-/react-portal-0.0.0-nightly-20250909-0406.1.tgz#4f7518b3441d6fce79c9f73bc9a044997672d5f5"
+  integrity sha512-KQipP5YTuXAePA0MPYycyJL4InTenHdERc/SDVKvl4muPaV2al8xzavcaOesPsra2pZsHzUuNlHRstrA1xRnYg==
   dependencies:
-    "@fluentui/react-shared-contexts" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-tabster" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-utilities" "0.0.0-nightly-20250804-0407.1"
+    "@fluentui/react-shared-contexts" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-tabster" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-utilities" "0.0.0-nightly-20250909-0406.1"
     "@griffel/react" "^1.5.22"
     "@swc/helpers" "^0.5.1"
-    use-disposable "^1.0.1"
 
 "@fluentui/react-portal@^9.4.41":
   version "9.4.41"
@@ -2095,16 +2099,16 @@
     "@swc/helpers" "^0.5.1"
     use-disposable "^1.0.1"
 
-"@fluentui/react-positioning@0.0.0-nightly-20250804-0407.1":
-  version "0.0.0-nightly-20250804-0407.1"
-  resolved "https://registry.yarnpkg.com/@fluentui/react-positioning/-/react-positioning-0.0.0-nightly-20250804-0407.1.tgz#8074204e8b5a69bb024e29ec5a04b69c6d228173"
-  integrity sha512-cPhxp+CAQ/FZsG5vgU+uvOGo9nk9CrYOqcfiCjhMpVuTB2e5FJhhDqSwcWB9228qmvCNCWbLxiohTBv7n80yuA==
+"@fluentui/react-positioning@0.0.0-nightly-20250909-0406.1":
+  version "0.0.0-nightly-20250909-0406.1"
+  resolved "https://registry.yarnpkg.com/@fluentui/react-positioning/-/react-positioning-0.0.0-nightly-20250909-0406.1.tgz#d34f8b424774ee01691ce6e9b726419349d8472b"
+  integrity sha512-OxKuzLQSGqB4/6Nc69N3NpXLlTHnzxSdBiWUiG7fT8oDeTWpJ9GnuKZ2oz3Ju2CAUVOTeHd9PFhcv5tGdlgLTg==
   dependencies:
-    "@floating-ui/devtools" "0.2.1"
+    "@floating-ui/devtools" "^0.2.3"
     "@floating-ui/dom" "^1.6.12"
-    "@fluentui/react-shared-contexts" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-theme" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-utilities" "0.0.0-nightly-20250804-0407.1"
+    "@fluentui/react-shared-contexts" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-theme" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-utilities" "0.0.0-nightly-20250909-0406.1"
     "@griffel/react" "^1.5.22"
     "@swc/helpers" "^0.5.1"
     use-sync-external-store "^1.2.0"
@@ -2205,12 +2209,12 @@
     "@griffel/react" "^1.5.22"
     "@swc/helpers" "^0.5.1"
 
-"@fluentui/react-shared-contexts@0.0.0-nightly-20250804-0407.1":
-  version "0.0.0-nightly-20250804-0407.1"
-  resolved "https://registry.yarnpkg.com/@fluentui/react-shared-contexts/-/react-shared-contexts-0.0.0-nightly-20250804-0407.1.tgz#9aa051b041baf3a2df738a665da6e2bfc9b69870"
-  integrity sha512-M7lvELBANI1XPke74wcohBfEl3kan+hJMbwped90kxL2IIVhokoG8V4KOUYUj3bv4p+opIEjFMccXwwnmaFRsw==
+"@fluentui/react-shared-contexts@0.0.0-nightly-20250909-0406.1":
+  version "0.0.0-nightly-20250909-0406.1"
+  resolved "https://registry.yarnpkg.com/@fluentui/react-shared-contexts/-/react-shared-contexts-0.0.0-nightly-20250909-0406.1.tgz#23048c6d1642111db4d5724cc0b7a72598293ee1"
+  integrity sha512-vJJ+pK2v52IE815GaD2mVN7QpAXe2ud6muz78gW267tQOXMXEJPR6yMBwbNjhL2cGlAnQJxXhQDx26IVDEuo6A==
   dependencies:
-    "@fluentui/react-theme" "0.0.0-nightly-20250804-0407.1"
+    "@fluentui/react-theme" "0.0.0-nightly-20250909-0406.1"
     "@swc/helpers" "^0.5.1"
 
 "@fluentui/react-shared-contexts@^9.21.2":
@@ -2342,14 +2346,14 @@
     "@griffel/react" "^1.5.22"
     "@swc/helpers" "^0.5.1"
 
-"@fluentui/react-tabster@0.0.0-nightly-20250804-0407.1":
-  version "0.0.0-nightly-20250804-0407.1"
-  resolved "https://registry.yarnpkg.com/@fluentui/react-tabster/-/react-tabster-0.0.0-nightly-20250804-0407.1.tgz#e83c946d4b6526fa8c7670b76084122153570a7c"
-  integrity sha512-fq+4a2GRGclQJGmnyuHc+1yyUy8X1cA3Y4NA6JwiC4+D/k++yn+qFeRnzoRcoQhS24zGf2hDc26A5sOgETluQw==
+"@fluentui/react-tabster@0.0.0-nightly-20250909-0406.1":
+  version "0.0.0-nightly-20250909-0406.1"
+  resolved "https://registry.yarnpkg.com/@fluentui/react-tabster/-/react-tabster-0.0.0-nightly-20250909-0406.1.tgz#285120f938b813cc26350c3e6c28f3b7d81a8f55"
+  integrity sha512-1Dr5MM7RPORmt8mcSJCkKTgKgjgFcZbmS65mORxc2QCU7kxBZ9RAs+3s356zBQ/w3QcsF8xQPuIVkdCgRh2O8Q==
   dependencies:
-    "@fluentui/react-shared-contexts" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-theme" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-utilities" "0.0.0-nightly-20250804-0407.1"
+    "@fluentui/react-shared-contexts" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-theme" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-utilities" "0.0.0-nightly-20250909-0406.1"
     "@griffel/react" "^1.5.22"
     "@swc/helpers" "^0.5.1"
     keyborg "^2.6.0"
@@ -2451,12 +2455,12 @@
     "@griffel/react" "^1.5.22"
     "@swc/helpers" "^0.5.1"
 
-"@fluentui/react-theme@0.0.0-nightly-20250804-0407.1":
-  version "0.0.0-nightly-20250804-0407.1"
-  resolved "https://registry.yarnpkg.com/@fluentui/react-theme/-/react-theme-0.0.0-nightly-20250804-0407.1.tgz#f9dc579d079ad19c470aef60472986584a814686"
-  integrity sha512-+oTPxBIqvK/5Qsv9cYy6x4NQSjSdF9Z39WZD8NGqfZOAsFZRgk0OD0HDBQ3toRuhW5qIa80uGZHgNeRrYDfS4g==
+"@fluentui/react-theme@0.0.0-nightly-20250909-0406.1":
+  version "0.0.0-nightly-20250909-0406.1"
+  resolved "https://registry.yarnpkg.com/@fluentui/react-theme/-/react-theme-0.0.0-nightly-20250909-0406.1.tgz#172335d07001a9b0b140fadfd3cb93ac7c090076"
+  integrity sha512-yLWkMDj+E03omPMg3Ur3nxXOZwjWtL3aP6CqsauKfTtq9/LXdTdu1xW449AzCTXT2BhCNZzNDm9XKsTf5sCT5w==
   dependencies:
-    "@fluentui/tokens" "0.0.0-nightly-20250804-0407.1"
+    "@fluentui/tokens" "0.0.0-nightly-20250909-0406.1"
     "@swc/helpers" "^0.5.1"
 
 "@fluentui/react-theme@^9.1.19", "@fluentui/react-theme@^9.1.24":
@@ -2503,19 +2507,19 @@
     "@griffel/react" "^1.5.22"
     "@swc/helpers" "^0.5.1"
 
-"@fluentui/react-tooltip@0.0.0-nightly-20250804-0407.1":
-  version "0.0.0-nightly-20250804-0407.1"
-  resolved "https://registry.yarnpkg.com/@fluentui/react-tooltip/-/react-tooltip-0.0.0-nightly-20250804-0407.1.tgz#66a8fafecd33b89fca94773d47c9c11becfebf49"
-  integrity sha512-GjcZ/yq5V9r+bt0XXiwPfEJvXdPyi/vOq2vh7QCuxyPdp4dQ6EwW26TjnKS274ScgTYKrpmJY3WwV8QJzAL5EA==
+"@fluentui/react-tooltip@0.0.0-nightly-20250909-0406.1":
+  version "0.0.0-nightly-20250909-0406.1"
+  resolved "https://registry.yarnpkg.com/@fluentui/react-tooltip/-/react-tooltip-0.0.0-nightly-20250909-0406.1.tgz#8ed2e3e1ab52663e6873a822c77ce3c33cb63ada"
+  integrity sha512-EORHOJ7fSXgo9Cn9X8r/rc8zL8ZtaH+6ha8eRbMd0B8B132WTccAWSEdMW6+tcp89NFFBo02uPz6LEwBspztwg==
   dependencies:
-    "@fluentui/keyboard-keys" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-jsx-runtime" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-portal" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-positioning" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-shared-contexts" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-tabster" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-theme" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-utilities" "0.0.0-nightly-20250804-0407.1"
+    "@fluentui/keyboard-keys" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-jsx-runtime" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-portal" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-positioning" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-shared-contexts" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-tabster" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-theme" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-utilities" "0.0.0-nightly-20250909-0406.1"
     "@griffel/react" "^1.5.22"
     "@swc/helpers" "^0.5.1"
 
@@ -2558,13 +2562,13 @@
     "@griffel/react" "^1.5.22"
     "@swc/helpers" "^0.5.1"
 
-"@fluentui/react-utilities@0.0.0-nightly-20250804-0407.1":
-  version "0.0.0-nightly-20250804-0407.1"
-  resolved "https://registry.yarnpkg.com/@fluentui/react-utilities/-/react-utilities-0.0.0-nightly-20250804-0407.1.tgz#45315dcf4abbc75198cb3ffb6aafe1fc4e0b9963"
-  integrity sha512-IWgOgoB32uenc0QXSIUJ1N/SeyETaFBFv1ThovgXPDBo7Wuh0+s0BrWQPixMvgL/fPa2eGFGP/cCYInoKtuhFA==
+"@fluentui/react-utilities@0.0.0-nightly-20250909-0406.1":
+  version "0.0.0-nightly-20250909-0406.1"
+  resolved "https://registry.yarnpkg.com/@fluentui/react-utilities/-/react-utilities-0.0.0-nightly-20250909-0406.1.tgz#fedfab07343a8411b881aec7ab61104136467a9d"
+  integrity sha512-C4NAzzM8ePEA1zQEf2h2udfr5CAbsJOB2M+31l+cmLzCmyTmCU/8icYUXYlhF47NagWhNUUD8nl829KB7MySeA==
   dependencies:
-    "@fluentui/keyboard-keys" "0.0.0-nightly-20250804-0407.1"
-    "@fluentui/react-shared-contexts" "0.0.0-nightly-20250804-0407.1"
+    "@fluentui/keyboard-keys" "0.0.0-nightly-20250909-0406.1"
+    "@fluentui/react-shared-contexts" "0.0.0-nightly-20250909-0406.1"
     "@swc/helpers" "^0.5.1"
 
 "@fluentui/react-utilities@^9.18.10", "@fluentui/react-utilities@^9.18.19", "@fluentui/react-utilities@^9.18.7":
@@ -2663,10 +2667,10 @@
     "@fluentui/utilities" "^8.15.22"
     tslib "^2.1.0"
 
-"@fluentui/tokens@0.0.0-nightly-20250804-0407.1":
-  version "0.0.0-nightly-20250804-0407.1"
-  resolved "https://registry.yarnpkg.com/@fluentui/tokens/-/tokens-0.0.0-nightly-20250804-0407.1.tgz#119a36a94a4cb5cf4a9bce65c11700f7e10a56bb"
-  integrity sha512-zFowwNrCZeJsuMozsqWr35ZcBb5noMrvs7yCrcNnn4N3dV5n84O1gtPA7/yr9pofuMEMMOTm4S2/WRa2I0PF+Q==
+"@fluentui/tokens@0.0.0-nightly-20250909-0406.1":
+  version "0.0.0-nightly-20250909-0406.1"
+  resolved "https://registry.yarnpkg.com/@fluentui/tokens/-/tokens-0.0.0-nightly-20250909-0406.1.tgz#05c8f3e23b89d601e7f1dd8d8bb1b88b02e861ee"
+  integrity sha512-Tm7JzJZP2KWUU6YPrm1/u+6Xv3iFWrzWbKXoFw86H/JqtUtfrF/xXm7kPW3PsqE9hxdhkfXC/PNHZHEJdNa3ug==
   dependencies:
     "@swc/helpers" "^0.5.1"
 
